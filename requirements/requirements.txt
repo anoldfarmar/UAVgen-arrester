@@ -1,0 +1,25 @@
+# Diffusion/SAM environment requirements for arrester object-preserved generation
+# Recommended base: conda env with Python 3.10 and PyTorch installed separately.
+# Install PyTorch first, e.g.:
+#   conda install -y pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+
+# Diffusion pipeline
+diffusers
+transformers
+accelerate
+safetensors
+
+# Image/data utilities
+opencv-python
+pillow
+numpy
+scipy
+tqdm
+pyyaml
+
+# Optional but useful for scripts/reports
+matplotlib
+
+# SAM is cloned locally at /root/segment-anything.
+# Install it after this requirements file with:
+#   pip install -e /root/segment-anything

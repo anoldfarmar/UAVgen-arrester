@@ -1,0 +1,1386 @@
+{
+  "sam_checkpoint": "/root/autodl-tmp/sam/sam_vit_h_4b8939.pth",
+  "model_type": "vit_h",
+  "device": "cuda",
+  "total": 26,
+  "records": [
+    {
+      "prototype_id": "train_DJI_0829_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0829_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0829_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0829_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0829_obj000.png",
+      "sam_score": 0.9826570749282837,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9575272798538208,
+          "area_px": 254431,
+          "area_ratio": 0.058197692504757724,
+          "mask_to_box_area": 0.46452309626531463,
+          "rank": 0.9575272798538208
+        },
+        {
+          "candidate": 1,
+          "score": 0.9826570749282837,
+          "area_px": 269342,
+          "area_ratio": 0.06160838457034109,
+          "mask_to_box_area": 0.4917466023962975,
+          "rank": 0.9826570749282837
+        },
+        {
+          "candidate": 2,
+          "score": 0.9758175611495972,
+          "area_px": 277857,
+          "area_ratio": 0.06355607707509882,
+          "mask_to_box_area": 0.5072927196724909,
+          "rank": 0.9758175611495972
+        }
+      ],
+      "box_in_crop_xyxy": [
+        569.0005493164062,
+        23.00116539001465,
+        904.000732421875,
+        1658.0009765625
+      ],
+      "mask_area_px": 269342,
+      "mask_area_ratio": 0.06160838457034109,
+      "mask_to_box_area": 0.4917466023962975,
+      "mask_bbox_xyxy": [
+        595,
+        0,
+        853,
+        1634
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0974_obj000",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0974_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0974_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0974_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0974_obj000.png",
+      "sam_score": 0.9610798358917236,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9384812712669373,
+          "area_px": 88286,
+          "area_ratio": 0.03801932273532762,
+          "mask_to_box_area": 0.3580378175315666,
+          "rank": 0.9384812712669373
+        },
+        {
+          "candidate": 1,
+          "score": 0.9610798358917236,
+          "area_px": 91088,
+          "area_ratio": 0.039225970927616184,
+          "mask_to_box_area": 0.3694011363445545,
+          "rank": 0.9610798358917236
+        },
+        {
+          "candidate": 2,
+          "score": 0.9555497169494629,
+          "area_px": 93130,
+          "area_ratio": 0.0401053340998693,
+          "mask_to_box_area": 0.3776823272853544,
+          "rank": 0.9555497169494629
+        }
+      ],
+      "box_in_crop_xyxy": [
+        284.9970397949219,
+        927.9989013671875,
+        550.9981689453125,
+        1854.998291015625
+      ],
+      "mask_area_px": 91088,
+      "mask_area_ratio": 0.039225970927616184,
+      "mask_to_box_area": 0.3694011363445545,
+      "mask_bbox_xyxy": [
+        307,
+        993,
+        524,
+        1857
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0298_obj000",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0298_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0298_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0298_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0298_obj000.png",
+      "sam_score": 0.939461350440979,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9011668562889099,
+          "area_px": 73567,
+          "area_ratio": 0.028988368322148496,
+          "mask_to_box_area": 0.2636148636542803,
+          "rank": 0.9011668562889099
+        },
+        {
+          "candidate": 1,
+          "score": 0.939461350440979,
+          "area_px": 76838,
+          "area_ratio": 0.03027727439119777,
+          "mask_to_box_area": 0.27533593722005234,
+          "rank": 0.939461350440979
+        },
+        {
+          "candidate": 2,
+          "score": 0.9364615678787231,
+          "area_px": 80514,
+          "area_ratio": 0.0317257668124222,
+          "mask_to_box_area": 0.2885082595764504,
+          "rank": 0.9364615678787231
+        }
+      ],
+      "box_in_crop_xyxy": [
+        293.0032653808594,
+        539.0000610351562,
+        581.0008544921875,
+        1508.001220703125
+      ],
+      "mask_area_px": 76838,
+      "mask_area_ratio": 0.03027727439119777,
+      "mask_to_box_area": 0.27533593722005234,
+      "mask_bbox_xyxy": [
+        326,
+        540,
+        560,
+        1501
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0622_obj000",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0622_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0622_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0622_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0622_obj000.png",
+      "sam_score": 0.968809962272644,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9666552543640137,
+          "area_px": 108940,
+          "area_ratio": 0.03952600719842099,
+          "mask_to_box_area": 0.41114757547616426,
+          "rank": 0.9666552543640137
+        },
+        {
+          "candidate": 1,
+          "score": 0.968809962272644,
+          "area_px": 112914,
+          "area_ratio": 0.04096786833855799,
+          "mask_to_box_area": 0.4261457438710814,
+          "rank": 0.968809962272644
+        },
+        {
+          "candidate": 2,
+          "score": 0.9561870098114014,
+          "area_px": 120200,
+          "area_ratio": 0.04361140137002206,
+          "mask_to_box_area": 0.45364364395295526,
+          "rank": 0.9561870098114014
+        }
+      ],
+      "box_in_crop_xyxy": [
+        372.9980773925781,
+        756.99951171875,
+        629.996826171875,
+        1787.9993896484375
+      ],
+      "mask_area_px": 112914,
+      "mask_area_ratio": 0.04096786833855799,
+      "mask_to_box_area": 0.4261457438710814,
+      "mask_bbox_xyxy": [
+        391,
+        743,
+        581,
+        1774
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0513_obj001",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0513_obj001.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0513_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0513_obj001.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0513_obj001.png",
+      "sam_score": 0.9685919284820557,
+      "selected_candidate": 2,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9322757124900818,
+          "area_px": 47425,
+          "area_ratio": 0.045596051194486745,
+          "mask_to_box_area": 0.49914669629007147,
+          "rank": 0.9322757124900818
+        },
+        {
+          "candidate": 1,
+          "score": 0.961225152015686,
+          "area_px": 49082,
+          "area_ratio": 0.04718914886089191,
+          "mask_to_box_area": 0.5165865713718353,
+          "rank": 0.961225152015686
+        },
+        {
+          "candidate": 2,
+          "score": 0.9685919284820557,
+          "area_px": 52678,
+          "area_ratio": 0.05064646884181703,
+          "mask_to_box_area": 0.5544343630399238,
+          "rank": 0.9685919284820557
+        }
+      ],
+      "box_in_crop_xyxy": [
+        202.99879455566406,
+        621.9996948242188,
+        355.9973449707031,
+        1243.0
+      ],
+      "mask_area_px": 52678,
+      "mask_area_ratio": 0.05064646884181703,
+      "mask_to_box_area": 0.5544343630399238,
+      "mask_bbox_xyxy": [
+        224,
+        585,
+        343,
+        1240
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0978_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0978_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0978_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0978_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0978_obj000.png",
+      "sam_score": 0.9833154678344727,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9592611193656921,
+          "area_px": 166807,
+          "area_ratio": 0.04763695764543941,
+          "mask_to_box_area": 0.5484380354010033,
+          "rank": 0.9592611193656921
+        },
+        {
+          "candidate": 1,
+          "score": 0.9833154678344727,
+          "area_px": 171209,
+          "area_ratio": 0.04889408646830191,
+          "mask_to_box_area": 0.5629111943921441,
+          "rank": 0.9833154678344727
+        },
+        {
+          "candidate": 2,
+          "score": 0.9811973571777344,
+          "area_px": 175753,
+          "area_ratio": 0.050191767833837386,
+          "mask_to_box_area": 0.5778512294797732,
+          "rank": 0.9811973571777344
+        }
+      ],
+      "box_in_crop_xyxy": [
+        473.9986267089844,
+        395.9990234375,
+        705.99658203125,
+        1706.99853515625
+      ],
+      "mask_area_px": 171209,
+      "mask_area_ratio": 0.04889408646830191,
+      "mask_to_box_area": 0.5629111943921441,
+      "mask_bbox_xyxy": [
+        488,
+        417,
+        660,
+        1696
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0693_obj000",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0693_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0693_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0693_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0693_obj000.png",
+      "sam_score": 0.9631291627883911,
+      "selected_candidate": 2,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9357550740242004,
+          "area_px": 102016,
+          "area_ratio": 0.0354111562358985,
+          "mask_to_box_area": 0.4026961608499109,
+          "rank": 0.9357550740242004
+        },
+        {
+          "candidate": 1,
+          "score": 0.959770679473877,
+          "area_px": 108690,
+          "area_ratio": 0.03772779339789649,
+          "mask_to_box_area": 0.42904099085218805,
+          "rank": 0.959770679473877
+        },
+        {
+          "candidate": 2,
+          "score": 0.9631291627883911,
+          "area_px": 113790,
+          "area_ratio": 0.03949807351869208,
+          "mask_to_box_area": 0.4491726409887798,
+          "rank": 0.9631291627883911
+        }
+      ],
+      "box_in_crop_xyxy": [
+        368.0009460449219,
+        306.0005798339844,
+        603.003173828125,
+        1384.000732421875
+      ],
+      "mask_area_px": 113790,
+      "mask_area_ratio": 0.03949807351869208,
+      "mask_to_box_area": 0.4491726409887798,
+      "mask_bbox_xyxy": [
+        352,
+        247,
+        610,
+        1346
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0297_obj000",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0297_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0297_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0297_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0297_obj000.png",
+      "sam_score": 0.9584866762161255,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9466584324836731,
+          "area_px": 86314,
+          "area_ratio": 0.03169242405883627,
+          "mask_to_box_area": 0.3558994396678467,
+          "rank": 0.9466584324836731
+        },
+        {
+          "candidate": 1,
+          "score": 0.9584866762161255,
+          "area_px": 90596,
+          "area_ratio": 0.03326467143261037,
+          "mask_to_box_area": 0.37355545608068497,
+          "rank": 0.9584866762161255
+        },
+        {
+          "candidate": 2,
+          "score": 0.9521889686584473,
+          "area_px": 94235,
+          "area_ratio": 0.03460082467716055,
+          "mask_to_box_area": 0.38856018371410816,
+          "rank": 0.9521889686584473
+        }
+      ],
+      "box_in_crop_xyxy": [
+        340.0,
+        588.99853515625,
+        578.0012817382812,
+        1607.9996337890625
+      ],
+      "mask_area_px": 90596,
+      "mask_area_ratio": 0.03326467143261037,
+      "mask_to_box_area": 0.37355545608068497,
+      "mask_bbox_xyxy": [
+        364,
+        548,
+        574,
+        1619
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0621_obj000",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0621_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0621_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0621_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0621_obj000.png",
+      "sam_score": 0.9642962217330933,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.954159677028656,
+          "area_px": 88995,
+          "area_ratio": 0.0323942123942124,
+          "mask_to_box_area": 0.48141739407377054,
+          "rank": 0.954159677028656
+        },
+        {
+          "candidate": 1,
+          "score": 0.9642962217330933,
+          "area_px": 92896,
+          "area_ratio": 0.033814177814177816,
+          "mask_to_box_area": 0.5025198071787964,
+          "rank": 0.9642962217330933
+        },
+        {
+          "candidate": 2,
+          "score": 0.9581741094589233,
+          "area_px": 100288,
+          "area_ratio": 0.036504868504868504,
+          "mask_to_box_area": 0.5425067432650182,
+          "rank": 0.9581741094589233
+        }
+      ],
+      "box_in_crop_xyxy": [
+        372.9981689453125,
+        531.999755859375,
+        552.9986572265625,
+        1558.9990234375
+      ],
+      "mask_area_px": 92896,
+      "mask_area_ratio": 0.033814177814177816,
+      "mask_to_box_area": 0.5025198071787964,
+      "mask_bbox_xyxy": [
+        404,
+        493,
+        537,
+        1573
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0565_obj000",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0565_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0565_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0565_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0565_obj000.png",
+      "sam_score": 0.9853900671005249,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9778839945793152,
+          "area_px": 164173,
+          "area_ratio": 0.050435314212686475,
+          "mask_to_box_area": 0.3795675495558581,
+          "rank": 0.9778839945793152
+        },
+        {
+          "candidate": 1,
+          "score": 0.9853900671005249,
+          "area_px": 168461,
+          "area_ratio": 0.051752623559192905,
+          "mask_to_box_area": 0.3894813944176534,
+          "rank": 0.9853900671005249
+        },
+        {
+          "candidate": 2,
+          "score": 0.9737734794616699,
+          "area_px": 170195,
+          "area_ratio": 0.0522853228145199,
+          "mask_to_box_area": 0.39349039791353796,
+          "rank": 0.9737734794616699
+        }
+      ],
+      "box_in_crop_xyxy": [
+        366.0003967285156,
+        696.9995727539062,
+        731.0015258789062,
+        1881.9998779296875
+      ],
+      "mask_area_px": 168461,
+      "mask_area_ratio": 0.051752623559192905,
+      "mask_to_box_area": 0.3894813944176534,
+      "mask_bbox_xyxy": [
+        387,
+        721,
+        717,
+        1867
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0616_W_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0616_W_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0616_W_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0616_W_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0616_W_obj000.png",
+      "sam_score": 0.9743459224700928,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9248608946800232,
+          "area_px": 503426,
+          "area_ratio": 0.03957751572327044,
+          "mask_to_box_area": 0.4133038545941761,
+          "rank": 0.9248608946800232
+        },
+        {
+          "candidate": 1,
+          "score": 0.9743459224700928,
+          "area_px": 530037,
+          "area_ratio": 0.04166957547169811,
+          "mask_to_box_area": 0.43515101559620145,
+          "rank": 0.9743459224700928
+        },
+        {
+          "candidate": 2,
+          "score": 0.9729903936386108,
+          "area_px": 556530,
+          "area_ratio": 0.04375235849056604,
+          "mask_to_box_area": 0.45690130068231843,
+          "rank": 0.9729903936386108
+        }
+      ],
+      "box_in_crop_xyxy": [
+        802.0040283203125,
+        1094.9969482421875,
+        1319.0040283203125,
+        3450.9990234375
+      ],
+      "mask_area_px": 530037,
+      "mask_area_ratio": 0.04166957547169811,
+      "mask_to_box_area": 0.43515101559620145,
+      "mask_bbox_xyxy": [
+        830,
+        994,
+        1300,
+        3474
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0700_obj000",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0700_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0700_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0700_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0700_obj000.png",
+      "sam_score": 0.9676550626754761,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.947269856929779,
+          "area_px": 133967,
+          "area_ratio": 0.03895227461721417,
+          "mask_to_box_area": 0.42346808394833485,
+          "rank": 0.947269856929779
+        },
+        {
+          "candidate": 1,
+          "score": 0.9676550626754761,
+          "area_px": 137514,
+          "area_ratio": 0.0399836011234975,
+          "mask_to_box_area": 0.4346801085048655,
+          "rank": 0.9676550626754761
+        },
+        {
+          "candidate": 2,
+          "score": 0.9676517248153687,
+          "area_px": 141992,
+          "area_ratio": 0.041285625396160805,
+          "mask_to_box_area": 0.4488350129210325,
+          "rank": 0.9676517248153687
+        }
+      ],
+      "box_in_crop_xyxy": [
+        519.9991455078125,
+        523.0006713867188,
+        765.9995727539062,
+        1809.001708984375
+      ],
+      "mask_area_px": 137514,
+      "mask_area_ratio": 0.0399836011234975,
+      "mask_to_box_area": 0.4346801085048655,
+      "mask_bbox_xyxy": [
+        507,
+        491,
+        759,
+        1842
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0976_obj000",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0976_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0976_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0976_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0976_obj000.png",
+      "sam_score": 0.9733679294586182,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9604629874229431,
+          "area_px": 82627,
+          "area_ratio": 0.04351480520848419,
+          "mask_to_box_area": 0.40744176528347337,
+          "rank": 0.9604629874229431
+        },
+        {
+          "candidate": 1,
+          "score": 0.9733679294586182,
+          "area_px": 85086,
+          "area_ratio": 0.0448098165971061,
+          "mask_to_box_area": 0.4195673332071794,
+          "rank": 0.9733679294586182
+        },
+        {
+          "candidate": 2,
+          "score": 0.9694327116012573,
+          "area_px": 87372,
+          "area_ratio": 0.04601371901044067,
+          "mask_to_box_area": 0.4308398213216943,
+          "rank": 0.9694327116012573
+        }
+      ],
+      "box_in_crop_xyxy": [
+        257.00311279296875,
+        838.999755859375,
+        499.0013732910156,
+        1677.0001220703125
+      ],
+      "mask_area_px": 85086,
+      "mask_area_ratio": 0.0448098165971061,
+      "mask_to_box_area": 0.4195673332071794,
+      "mask_bbox_xyxy": [
+        273,
+        848,
+        480,
+        1680
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0584_obj000",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0584_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0584_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0584_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0584_obj000.png",
+      "sam_score": 0.9627736806869507,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9550643563270569,
+          "area_px": 89405,
+          "area_ratio": 0.03229902747070129,
+          "mask_to_box_area": 0.47157571042901547,
+          "rank": 0.9550643563270569
+        },
+        {
+          "candidate": 1,
+          "score": 0.9627736806869507,
+          "area_px": 92915,
+          "area_ratio": 0.03356707273016286,
+          "mask_to_box_area": 0.49008956025403466,
+          "rank": 0.9627736806869507
+        },
+        {
+          "candidate": 2,
+          "score": 0.9510161876678467,
+          "area_px": 98184,
+          "area_ratio": 0.03547058568517796,
+          "mask_to_box_area": 0.5178814333959225,
+          "rank": 0.9510161876678467
+        }
+      ],
+      "box_in_crop_xyxy": [
+        374.9983215332031,
+        576.9996948242188,
+        557.9978637695312,
+        1613.0010986328125
+      ],
+      "mask_area_px": 92915,
+      "mask_area_ratio": 0.03356707273016286,
+      "mask_to_box_area": 0.49008956025403466,
+      "mask_bbox_xyxy": [
+        392,
+        609,
+        527,
+        1609
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0613_obj000",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0613_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0613_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0613_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0613_obj000.png",
+      "sam_score": 0.9730278253555298,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9691078066825867,
+          "area_px": 104423,
+          "area_ratio": 0.03855181936322287,
+          "mask_to_box_area": 0.5397055208461535,
+          "rank": 0.9691078066825867
+        },
+        {
+          "candidate": 1,
+          "score": 0.9730278253555298,
+          "area_px": 109126,
+          "area_ratio": 0.04028811506881683,
+          "mask_to_box_area": 0.5640127622061936,
+          "rank": 0.9730278253555298
+        },
+        {
+          "candidate": 2,
+          "score": 0.9601526260375977,
+          "area_px": 111924,
+          "area_ratio": 0.04132110579479001,
+          "mask_to_box_area": 0.5784740978058942,
+          "rank": 0.9601526260375977
+        }
+      ],
+      "box_in_crop_xyxy": [
+        360.99969482421875,
+        1726.0020751953125,
+        551.9984130859375,
+        2739.000732421875
+      ],
+      "mask_area_px": 109126,
+      "mask_area_ratio": 0.04028811506881683,
+      "mask_to_box_area": 0.5640127622061936,
+      "mask_bbox_xyxy": [
+        373,
+        1694,
+        514,
+        2732
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0823_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0823_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0823_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0823_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0823_obj000.png",
+      "sam_score": 0.983734130859375,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9606202244758606,
+          "area_px": 233169,
+          "area_ratio": 0.05664363694666725,
+          "mask_to_box_area": 0.4871559392232909,
+          "rank": 0.9606202244758606
+        },
+        {
+          "candidate": 1,
+          "score": 0.983734130859375,
+          "area_px": 237743,
+          "area_ratio": 0.05775479664368553,
+          "mask_to_box_area": 0.4967123179271809,
+          "rank": 0.983734130859375
+        },
+        {
+          "candidate": 2,
+          "score": 0.9794206619262695,
+          "area_px": 242619,
+          "area_ratio": 0.05893932106053318,
+          "mask_to_box_area": 0.5068996599823116,
+          "rank": 0.9794206619262695
+        }
+      ],
+      "box_in_crop_xyxy": [
+        537.996826171875,
+        899.9990844726562,
+        848.9993896484375,
+        2438.999755859375
+      ],
+      "mask_area_px": 237743,
+      "mask_area_ratio": 0.05775479664368553,
+      "mask_to_box_area": 0.4967123179271809,
+      "mask_bbox_xyxy": [
+        588,
+        937,
+        781,
+        2413
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0612_obj001",
+      "grade": "B",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0612_obj001.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0612_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0612_obj001.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0612_obj001.png",
+      "sam_score": 0.9627951383590698,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9498648047447205,
+          "area_px": 91344,
+          "area_ratio": 0.03346632813444565,
+          "mask_to_box_area": 0.5449787052437697,
+          "rank": 0.9498648047447205
+        },
+        {
+          "candidate": 1,
+          "score": 0.9627951383590698,
+          "area_px": 95683,
+          "area_ratio": 0.03505603734112983,
+          "mask_to_box_area": 0.570866148338584,
+          "rank": 0.9627951383590698
+        },
+        {
+          "candidate": 2,
+          "score": 0.9582297801971436,
+          "area_px": 99925,
+          "area_ratio": 0.03661020799214488,
+          "mask_to_box_area": 0.596174867768914,
+          "rank": 0.9582297801971436
+        }
+      ],
+      "box_in_crop_xyxy": [
+        378.0000915527344,
+        899.9990844726562,
+        542.0021362304688,
+        1921.9998779296875
+      ],
+      "mask_area_px": 95683,
+      "mask_area_ratio": 0.03505603734112983,
+      "mask_to_box_area": 0.570866148338584,
+      "mask_bbox_xyxy": [
+        396,
+        908,
+        529,
+        1908
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0987_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0987_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0987_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0987_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0987_obj000.png",
+      "sam_score": 0.9717532396316528,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9557520747184753,
+          "area_px": 145554,
+          "area_ratio": 0.043796318863342995,
+          "mask_to_box_area": 0.4916145170908822,
+          "rank": 0.9557520747184753
+        },
+        {
+          "candidate": 1,
+          "score": 0.9717532396316528,
+          "area_px": 152258,
+          "area_ratio": 0.04581351194398558,
+          "mask_to_box_area": 0.5142575480112093,
+          "rank": 0.9717532396316528
+        },
+        {
+          "candidate": 2,
+          "score": 0.9706701040267944,
+          "area_px": 156896,
+          "area_ratio": 0.04720905811164971,
+          "mask_to_box_area": 0.5299225804408746,
+          "rank": 0.9706701040267944
+        }
+      ],
+      "box_in_crop_xyxy": [
+        440.9969482421875,
+        449.0001525878906,
+        678.9982299804688,
+        1692.99951171875
+      ],
+      "mask_area_px": 152258,
+      "mask_area_ratio": 0.04581351194398558,
+      "mask_to_box_area": 0.5142575480112093,
+      "mask_bbox_xyxy": [
+        465,
+        479,
+        625,
+        1691
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0330_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0330_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0330_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0330_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0330_obj000.png",
+      "sam_score": 0.9674179553985596,
+      "selected_candidate": 2,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9112691879272461,
+          "area_px": 93247,
+          "area_ratio": 0.03401548894506641,
+          "mask_to_box_area": 0.5289068690710429,
+          "rank": 0.9112691879272461
+        },
+        {
+          "candidate": 1,
+          "score": 0.962597131729126,
+          "area_px": 100690,
+          "area_ratio": 0.036730614195402925,
+          "mask_to_box_area": 0.5711243541000065,
+          "rank": 0.962597131729126
+        },
+        {
+          "candidate": 2,
+          "score": 0.9674179553985596,
+          "area_px": 106624,
+          "area_ratio": 0.0388952726980896,
+          "mask_to_box_area": 0.604782631160583,
+          "rank": 0.9674179553985596
+        }
+      ],
+      "box_in_crop_xyxy": [
+        375.9985656738281,
+        626.9996948242188,
+        547.9998168945312,
+        1652.0001220703125
+      ],
+      "mask_area_px": 106624,
+      "mask_area_ratio": 0.0388952726980896,
+      "mask_to_box_area": 0.604782631160583,
+      "mask_bbox_xyxy": [
+        380,
+        549,
+        540,
+        1712
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0303_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0303_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0303_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0303_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0303_obj000.png",
+      "sam_score": 0.9670236110687256,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9414727091789246,
+          "area_px": 112896,
+          "area_ratio": 0.03641007778938814,
+          "mask_to_box_area": 0.3561885918201105,
+          "rank": 0.9414727091789246
+        },
+        {
+          "candidate": 1,
+          "score": 0.9670236110687256,
+          "area_px": 118335,
+          "area_ratio": 0.03816420914122064,
+          "mask_to_box_area": 0.37334871929061064,
+          "rank": 0.9670236110687256
+        },
+        {
+          "candidate": 2,
+          "score": 0.9581418037414551,
+          "area_px": 133942,
+          "area_ratio": 0.043197621166969825,
+          "mask_to_box_area": 0.42258904093651894,
+          "rank": 0.9581418037414551
+        }
+      ],
+      "box_in_crop_xyxy": [
+        385.99945068359375,
+        366.0005187988281,
+        659.0018310546875,
+        1527.000244140625
+      ],
+      "mask_area_px": 118335,
+      "mask_area_ratio": 0.03816420914122064,
+      "mask_to_box_area": 0.37334871929061064,
+      "mask_bbox_xyxy": [
+        428,
+        317,
+        589,
+        1594
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0311_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0311_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0311_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0311_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0311_obj000.png",
+      "sam_score": 0.9794244766235352,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9434794783592224,
+          "area_px": 214025,
+          "area_ratio": 0.05039320948411857,
+          "mask_to_box_area": 0.4793267924906496,
+          "rank": 0.9434794783592224
+        },
+        {
+          "candidate": 1,
+          "score": 0.9794244766235352,
+          "area_px": 221368,
+          "area_ratio": 0.05212215394033576,
+          "mask_to_box_area": 0.4957720518634277,
+          "rank": 0.9794244766235352
+        },
+        {
+          "candidate": 2,
+          "score": 0.9788022041320801,
+          "area_px": 231189,
+          "area_ratio": 0.05443455534364625,
+          "mask_to_box_area": 0.5177669983839308,
+          "rank": 0.9788022041320801
+        }
+      ],
+      "box_in_crop_xyxy": [
+        575.0003051757812,
+        321.9999694824219,
+        856.0018920898438,
+        1911.00048828125
+      ],
+      "mask_area_px": 221368,
+      "mask_area_ratio": 0.05212215394033576,
+      "mask_to_box_area": 0.4957720518634277,
+      "mask_bbox_xyxy": [
+        597,
+        367,
+        809,
+        1896
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0325_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0325_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0325_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0325_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0325_obj000.png",
+      "sam_score": 0.9785642623901367,
+      "selected_candidate": 2,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.861920177936554,
+          "area_px": 143297,
+          "area_ratio": 0.044183285849952514,
+          "mask_to_box_area": 0.5022808822785206,
+          "rank": 0.861920177936554
+        },
+        {
+          "candidate": 1,
+          "score": 0.9704464673995972,
+          "area_px": 159491,
+          "area_ratio": 0.04917644084310751,
+          "mask_to_box_area": 0.559043665921014,
+          "rank": 0.9704464673995972
+        },
+        {
+          "candidate": 2,
+          "score": 0.9785642623901367,
+          "area_px": 164222,
+          "area_ratio": 0.05063516730183397,
+          "mask_to_box_area": 0.5756266429132726,
+          "rank": 0.9785642623901367
+        }
+      ],
+      "box_in_crop_xyxy": [
+        429.00030517578125,
+        419.99957275390625,
+        664.0025634765625,
+        1633.9989013671875
+      ],
+      "mask_area_px": 164222,
+      "mask_area_ratio": 0.05063516730183397,
+      "mask_to_box_area": 0.5756266429132726,
+      "mask_bbox_xyxy": [
+        424,
+        380,
+        660,
+        1701
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0356_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0356_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0356_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0356_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0356_obj000.png",
+      "sam_score": 0.9794293642044067,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.941821813583374,
+          "area_px": 152978,
+          "area_ratio": 0.04542129110030345,
+          "mask_to_box_area": 0.5539528169371895,
+          "rank": 0.941821813583374
+        },
+        {
+          "candidate": 1,
+          "score": 0.9794293642044067,
+          "area_px": 157950,
+          "area_ratio": 0.046897546897546896,
+          "mask_to_box_area": 0.5719570620300244,
+          "rank": 0.9794293642044067
+        },
+        {
+          "candidate": 2,
+          "score": 0.9768013954162598,
+          "area_px": 163073,
+          "area_ratio": 0.04841863669024163,
+          "mask_to_box_area": 0.5905080973499346,
+          "rank": 0.9768013954162598
+        }
+      ],
+      "box_in_crop_xyxy": [
+        458.0023193359375,
+        524.9994506835938,
+        677.0008544921875,
+        1785.9991455078125
+      ],
+      "mask_area_px": 157950,
+      "mask_area_ratio": 0.046897546897546896,
+      "mask_to_box_area": 0.5719570620300244,
+      "mask_bbox_xyxy": [
+        480,
+        535,
+        652,
+        1765
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0361_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0361_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0361_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0361_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0361_obj000.png",
+      "sam_score": 0.9704711437225342,
+      "selected_candidate": 1,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.907979428768158,
+          "area_px": 130779,
+          "area_ratio": 0.04119114437168694,
+          "mask_to_box_area": 0.5733448817162994,
+          "rank": 0.907979428768158
+        },
+        {
+          "candidate": 1,
+          "score": 0.9704711437225342,
+          "area_px": 137289,
+          "area_ratio": 0.043241583279001426,
+          "mask_to_box_area": 0.601885206844746,
+          "rank": 0.9704711437225342
+        },
+        {
+          "candidate": 2,
+          "score": 0.9686441421508789,
+          "area_px": 142762,
+          "area_ratio": 0.044965400811986404,
+          "mask_to_box_area": 0.6258792466954354,
+          "rank": 0.9686441421508789
+        }
+      ],
+      "box_in_crop_xyxy": [
+        438.9974365234375,
+        639.00146484375,
+        630.9993896484375,
+        1827.00146484375
+      ],
+      "mask_area_px": 137289,
+      "mask_area_ratio": 0.043241583279001426,
+      "mask_to_box_area": 0.601885206844746,
+      "mask_bbox_xyxy": [
+        454,
+        651,
+        616,
+        1820
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0652_obj000",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0652_obj000.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0652_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0652_obj000.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0652_obj000.png",
+      "sam_score": 0.9826442003250122,
+      "selected_candidate": 2,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9648652076721191,
+          "area_px": 15475,
+          "area_ratio": 0.038578323344933836,
+          "mask_to_box_area": 0.386486814756858,
+          "rank": 0.9648652076721191
+        },
+        {
+          "candidate": 1,
+          "score": 0.9824041128158569,
+          "area_px": 15728,
+          "area_ratio": 0.039209038421267814,
+          "mask_to_box_area": 0.39280546833575847,
+          "rank": 0.9824041128158569
+        },
+        {
+          "candidate": 2,
+          "score": 0.9826442003250122,
+          "area_px": 16004,
+          "area_ratio": 0.039897091231813966,
+          "mask_to_box_area": 0.3996985449672863,
+          "rank": 0.9826442003250122
+        }
+      ],
+      "box_in_crop_xyxy": [
+        121.99896240234375,
+        385.9989929199219,
+        225.99911499023438,
+        771.0001220703125
+      ],
+      "mask_area_px": 16004,
+      "mask_area_ratio": 0.039897091231813966,
+      "mask_to_box_area": 0.3996985449672863,
+      "mask_bbox_xyxy": [
+        120,
+        374,
+        218,
+        788
+      ],
+      "quality_flags": []
+    },
+    {
+      "prototype_id": "train_DJI_0822_obj001",
+      "grade": "A",
+      "status": "ok",
+      "image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0822_obj001.jpg",
+      "mask": "/root/workspace/outputs/arrester/prototypes/bank/masks/train_DJI_0822_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/prototypes/bank/mask_overlays/train_DJI_0822_obj001.jpg",
+      "cutout_rgba": "/root/workspace/outputs/arrester/prototypes/bank/cutouts_rgba/train_DJI_0822_obj001.png",
+      "sam_score": 0.9680194854736328,
+      "selected_candidate": 0,
+      "candidate_masks": [
+        {
+          "candidate": 0,
+          "score": 0.9680194854736328,
+          "area_px": 11562,
+          "area_ratio": 0.03707979757162924,
+          "mask_to_box_area": 0.48578332995239776,
+          "rank": 0.9680194854736328
+        },
+        {
+          "candidate": 1,
+          "score": 0.9658836126327515,
+          "area_px": 11953,
+          "area_ratio": 0.03833375024854561,
+          "mask_to_box_area": 0.5022113944750917,
+          "rank": 0.9658836126327515
+        },
+        {
+          "candidate": 2,
+          "score": 0.960820198059082,
+          "area_px": 12419,
+          "area_ratio": 0.03982823093254312,
+          "mask_to_box_area": 0.5217906222694021,
+          "rank": 0.960820198059082
+        }
+      ],
+      "box_in_crop_xyxy": [
+        118.9964828491211,
+        339.9998779296875,
+        188.99871826171875,
+        679.99951171875
+      ],
+      "mask_area_px": 11562,
+      "mask_area_ratio": 0.03707979757162924,
+      "mask_to_box_area": 0.48578332995239776,
+      "mask_bbox_xyxy": [
+        139,
+        351,
+        178,
+        670
+      ],
+      "quality_flags": []
+    }
+  ]
+}

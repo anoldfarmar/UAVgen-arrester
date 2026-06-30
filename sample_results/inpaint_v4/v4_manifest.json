@@ -1,0 +1,1174 @@
+{
+  "count": 12,
+  "records": [
+    {
+      "job_id": "gen_0000",
+      "seed": 20260629,
+      "prototype_id": "train_DJI_0613_obj000",
+      "prototype_grade": "B",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0613_obj000.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0613.JPG",
+      "layout_id": "train_DJI_0976_obj001",
+      "target_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0976.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0976_obj001.jpg",
+      "target_bbox_xyxy": [
+        4031.00016,
+        581.9997149999999,
+        4144.0027199999995,
+        911.999385
+      ],
+      "target_bbox_xywh": [
+        4031.00016,
+        581.9997149999999,
+        113.00255999999945,
+        329.99967000000004
+      ],
+      "target_bbox_yolo": [
+        0.774148,
+        0.251515,
+        0.021401999999999897,
+        0.11111100000000002
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "prototype_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "tag_overlap": [
+        "equipment_dense",
+        "insulator_possible_review",
+        "sky",
+        "tower_or_equipment",
+        "vegetation",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        0,
+        363,
+        565,
+        1131
+      ],
+      "target_local_xyxy": [
+        226.00016000000005,
+        218.99971499999992,
+        339.0027199999995,
+        548.999385
+      ],
+      "pasted_box_local_xyxy": [
+        260,
+        219,
+        305,
+        549
+      ],
+      "pasted_box_global_xyxy": [
+        260,
+        582,
+        305,
+        912
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0000_train_DJI_0613_obj000_to_train_DJI_0976_obj001.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0000_train_DJI_0613_obj000_to_train_DJI_0976_obj001.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0000_train_DJI_0613_obj000_to_train_DJI_0976_obj001.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0000_train_DJI_0613_obj000_to_train_DJI_0976_obj001.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0000_train_DJI_0613_obj000_to_train_DJI_0976_obj001.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0000_train_DJI_0613_obj000_to_train_DJI_0976_obj001.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    },
+    {
+      "job_id": "gen_0001",
+      "seed": 20260630,
+      "prototype_id": "train_DJI_0822_obj001",
+      "prototype_grade": "A",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0822_obj001.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0822.JPG",
+      "layout_id": "train_DJI_0992_obj000",
+      "target_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0992.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0992_obj000.jpg",
+      "target_bbox_xyxy": [
+        2374.0015200000003,
+        477.99922499999997,
+        2663.00232,
+        1721.9985749999998
+      ],
+      "target_bbox_xywh": [
+        2374.0015200000003,
+        477.99922499999997,
+        289.0007999999998,
+        1243.9993499999998
+      ],
+      "target_bbox_yolo": [
+        0.47698900000000005,
+        0.3703699999999999,
+        0.054734999999999964,
+        0.4188549999999999
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "prototype_tags_auto": [
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "tag_overlap": [
+        "equipment_dense",
+        "insulator_possible_review",
+        "tower_or_equipment",
+        "vegetation",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        235,
+        460,
+        1259,
+        1740
+      ],
+      "target_local_xyxy": [
+        367.00152000000026,
+        17.999224999999967,
+        656.00232,
+        1261.9985749999998
+      ],
+      "pasted_box_local_xyxy": [
+        434,
+        32,
+        590,
+        1248
+      ],
+      "pasted_box_global_xyxy": [
+        669,
+        492,
+        825,
+        1708
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0001_train_DJI_0822_obj001_to_train_DJI_0992_obj000.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0001_train_DJI_0822_obj001_to_train_DJI_0992_obj000.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0001_train_DJI_0822_obj001_to_train_DJI_0992_obj000.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0001_train_DJI_0822_obj001_to_train_DJI_0992_obj000.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0001_train_DJI_0822_obj001_to_train_DJI_0992_obj000.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0001_train_DJI_0822_obj001_to_train_DJI_0992_obj000.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    },
+    {
+      "job_id": "gen_0002",
+      "seed": 20260631,
+      "prototype_id": "train_DJI_0822_obj001",
+      "prototype_grade": "A",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0822_obj001.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0822.JPG",
+      "layout_id": "train_DJI_0719_obj001",
+      "target_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0719.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0719_obj001.jpg",
+      "target_bbox_xyxy": [
+        2167.9996800000004,
+        343.0008449999999,
+        2403.00192,
+        1432.9997549999998
+      ],
+      "target_bbox_xywh": [
+        2167.9996800000004,
+        343.0008449999999,
+        235.0022399999998,
+        1089.9989099999998
+      ],
+      "target_bbox_yolo": [
+        0.43286,
+        0.29899,
+        0.044507999999999964,
+        0.3670029999999999
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "prototype_tags_auto": [
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "tag_overlap": [
+        "equipment_dense",
+        "insulator_possible_review",
+        "tower_or_equipment",
+        "vegetation",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        142,
+        248,
+        1166,
+        1528
+      ],
+      "target_local_xyxy": [
+        393.99968000000035,
+        95.00084499999991,
+        629.0019200000002,
+        1184.9997549999998
+      ],
+      "pasted_box_local_xyxy": [
+        442,
+        95,
+        581,
+        1185
+      ],
+      "pasted_box_global_xyxy": [
+        584,
+        343,
+        723,
+        1433
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0002_train_DJI_0822_obj001_to_train_DJI_0719_obj001.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0002_train_DJI_0822_obj001_to_train_DJI_0719_obj001.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0002_train_DJI_0822_obj001_to_train_DJI_0719_obj001.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0002_train_DJI_0822_obj001_to_train_DJI_0719_obj001.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0002_train_DJI_0822_obj001_to_train_DJI_0719_obj001.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0002_train_DJI_0822_obj001_to_train_DJI_0719_obj001.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    },
+    {
+      "job_id": "gen_0003",
+      "seed": 20260632,
+      "prototype_id": "train_DJI_0978_obj000",
+      "prototype_grade": "A",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0978_obj000.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0978.JPG",
+      "layout_id": "train_DJI_0987_obj001",
+      "target_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0987.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0987_obj001.jpg",
+      "target_bbox_xyxy": [
+        3245.0008799999996,
+        1163.99943,
+        3303.00168,
+        1494.99999
+      ],
+      "target_bbox_xywh": [
+        3245.0008799999996,
+        1163.99943,
+        58.000800000000254,
+        331.00055999999995
+      ],
+      "target_bbox_yolo": [
+        0.6200759999999998,
+        0.447643,
+        0.010985000000000049,
+        0.11144799999999998
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "wire_or_tower"
+      ],
+      "prototype_tags_auto": [
+        "sky",
+        "wire_or_tower"
+      ],
+      "tag_overlap": [
+        "sky",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        0,
+        443,
+        512,
+        1211
+      ],
+      "target_local_xyxy": [
+        227.0008799999996,
+        218.99943000000007,
+        285.00167999999985,
+        549.99999
+      ],
+      "pasted_box_local_xyxy": [
+        234,
+        219,
+        278,
+        550
+      ],
+      "pasted_box_global_xyxy": [
+        234,
+        662,
+        278,
+        993
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0003_train_DJI_0978_obj000_to_train_DJI_0987_obj001.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0003_train_DJI_0978_obj000_to_train_DJI_0987_obj001.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0003_train_DJI_0978_obj000_to_train_DJI_0987_obj001.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0003_train_DJI_0978_obj000_to_train_DJI_0987_obj001.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0003_train_DJI_0978_obj000_to_train_DJI_0987_obj001.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0003_train_DJI_0978_obj000_to_train_DJI_0987_obj001.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    },
+    {
+      "job_id": "gen_0004",
+      "seed": 20260633,
+      "prototype_id": "train_DJI_0311_obj000",
+      "prototype_grade": "A",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0311_obj000.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0311.JPG",
+      "layout_id": "train_DJI_0584_obj000",
+      "target_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0584.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0584_obj000.jpg",
+      "target_bbox_xyxy": [
+        3032.9983199999997,
+        576.9997199999999,
+        3215.99784,
+        1613.0010599999998
+      ],
+      "target_bbox_xywh": [
+        3032.9983199999997,
+        576.9997199999999,
+        182.9995200000003,
+        1036.0013399999998
+      ],
+      "target_bbox_yolo": [
+        0.591761,
+        0.368687,
+        0.03465900000000006,
+        0.3488219999999999
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "prototype_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "tag_overlap": [
+        "equipment_dense",
+        "insulator_possible_review",
+        "sky",
+        "tower_or_equipment",
+        "vegetation",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        109,
+        455,
+        1133,
+        1735
+      ],
+      "target_local_xyxy": [
+        420.9983199999997,
+        121.99971999999991,
+        603.99784,
+        1158.0010599999998
+      ],
+      "pasted_box_local_xyxy": [
+        440,
+        122,
+        584,
+        1158
+      ],
+      "pasted_box_global_xyxy": [
+        549,
+        577,
+        693,
+        1613
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0004_train_DJI_0311_obj000_to_train_DJI_0584_obj000.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0004_train_DJI_0311_obj000_to_train_DJI_0584_obj000.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0004_train_DJI_0311_obj000_to_train_DJI_0584_obj000.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0004_train_DJI_0311_obj000_to_train_DJI_0584_obj000.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0004_train_DJI_0311_obj000_to_train_DJI_0584_obj000.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0004_train_DJI_0311_obj000_to_train_DJI_0584_obj000.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    },
+    {
+      "job_id": "gen_0005",
+      "seed": 20260634,
+      "prototype_id": "train_DJI_0978_obj000",
+      "prototype_grade": "A",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0978_obj000.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0978.JPG",
+      "layout_id": "train_DJI_0987_obj000",
+      "target_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0987.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0987_obj000.jpg",
+      "target_bbox_xyxy": [
+        3699.9969600000004,
+        449.000145,
+        3937.99824,
+        1692.999495
+      ],
+      "target_bbox_xywh": [
+        3699.9969600000004,
+        449.000145,
+        238.0012799999995,
+        1243.99935
+      ],
+      "target_bbox_yolo": [
+        0.723295,
+        0.360606,
+        0.04507599999999991,
+        0.41885500000000003
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "prototype_tags_auto": [
+        "sky",
+        "wire_or_tower"
+      ],
+      "tag_overlap": [
+        "sky",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        234,
+        431,
+        1258,
+        1711
+      ],
+      "target_local_xyxy": [
+        392.9969600000004,
+        18.000144999999975,
+        630.9982399999999,
+        1261.999495
+      ],
+      "pasted_box_local_xyxy": [
+        430,
+        32,
+        593,
+        1248
+      ],
+      "pasted_box_global_xyxy": [
+        664,
+        463,
+        827,
+        1679
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0005_train_DJI_0978_obj000_to_train_DJI_0987_obj000.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0005_train_DJI_0978_obj000_to_train_DJI_0987_obj000.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0005_train_DJI_0978_obj000_to_train_DJI_0987_obj000.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0005_train_DJI_0978_obj000_to_train_DJI_0987_obj000.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0005_train_DJI_0978_obj000_to_train_DJI_0987_obj000.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0005_train_DJI_0978_obj000_to_train_DJI_0987_obj000.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    },
+    {
+      "job_id": "gen_0006",
+      "seed": 20260635,
+      "prototype_id": "train_DJI_0974_obj000",
+      "prototype_grade": "B",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0974_obj000.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0974.JPG",
+      "layout_id": "train_DJI_0649_obj000",
+      "target_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0649.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0649_obj000.jpg",
+      "target_bbox_xyxy": [
+        4055.9983200000006,
+        1163.00151,
+        4169.9988,
+        1563.0011100000002
+      ],
+      "target_bbox_xywh": [
+        4055.9983200000006,
+        1163.00151,
+        114.0004799999997,
+        399.9996000000001
+      ],
+      "target_bbox_yolo": [
+        0.778977,
+        0.458923,
+        0.021590999999999944,
+        0.13468000000000002
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "prototype_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "tag_overlap": [
+        "equipment_dense",
+        "insulator_possible_review",
+        "sky",
+        "tower_or_equipment",
+        "vegetation",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        0,
+        616,
+        570,
+        1384
+      ],
+      "target_local_xyxy": [
+        227.9983200000006,
+        184.00151000000005,
+        341.9988000000003,
+        584.0011100000002
+      ],
+      "pasted_box_local_xyxy": [
+        235,
+        184,
+        335,
+        584
+      ],
+      "pasted_box_global_xyxy": [
+        235,
+        800,
+        335,
+        1200
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0006_train_DJI_0974_obj000_to_train_DJI_0649_obj000.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0006_train_DJI_0974_obj000_to_train_DJI_0649_obj000.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0006_train_DJI_0974_obj000_to_train_DJI_0649_obj000.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0006_train_DJI_0974_obj000_to_train_DJI_0649_obj000.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0006_train_DJI_0974_obj000_to_train_DJI_0649_obj000.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0006_train_DJI_0974_obj000_to_train_DJI_0649_obj000.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    },
+    {
+      "job_id": "gen_0007",
+      "seed": 20260636,
+      "prototype_id": "train_DJI_0829_obj000",
+      "prototype_grade": "A",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0829_obj000.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0829.JPG",
+      "layout_id": "train_DJI_0522_obj000",
+      "target_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0522.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0522_obj000.jpg",
+      "target_bbox_xyxy": [
+        2957.0006399999997,
+        845.99856,
+        3083.0025600000004,
+        1433.99916
+      ],
+      "target_bbox_xywh": [
+        2957.0006399999997,
+        845.99856,
+        126.00192000000061,
+        588.0006000000001
+      ],
+      "target_bbox_yolo": [
+        0.57197,
+        0.38383800000000007,
+        0.023864000000000114,
+        0.19798000000000002
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "prototype_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "tag_overlap": [
+        "equipment_dense",
+        "insulator_possible_review",
+        "sky",
+        "tower_or_equipment",
+        "vegetation",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        0,
+        611,
+        706,
+        1669
+      ],
+      "target_local_xyxy": [
+        290.00063999999975,
+        234.99856,
+        416.00256000000036,
+        822.9991600000001
+      ],
+      "pasted_box_local_xyxy": [
+        304,
+        235,
+        401,
+        823
+      ],
+      "pasted_box_global_xyxy": [
+        304,
+        846,
+        401,
+        1434
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0007_train_DJI_0829_obj000_to_train_DJI_0522_obj000.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0007_train_DJI_0829_obj000_to_train_DJI_0522_obj000.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0007_train_DJI_0829_obj000_to_train_DJI_0522_obj000.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0007_train_DJI_0829_obj000_to_train_DJI_0522_obj000.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0007_train_DJI_0829_obj000_to_train_DJI_0522_obj000.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0007_train_DJI_0829_obj000_to_train_DJI_0522_obj000.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    },
+    {
+      "job_id": "gen_0008",
+      "seed": 20260637,
+      "prototype_id": "train_DJI_0311_obj000",
+      "prototype_grade": "A",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0311_obj000.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0311.JPG",
+      "layout_id": "val_DJI_0638_obj001",
+      "target_image": "/root/autodl-tmp/bileiqi/val/images/DJI_0638.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/val_DJI_0638_obj001.jpg",
+      "target_bbox_xyxy": [
+        3235.9984799999997,
+        437.99926500000004,
+        3311.00088,
+        830.998575
+      ],
+      "target_bbox_xywh": [
+        3235.9984799999997,
+        437.99926500000004,
+        75.0024000000003,
+        392.9993099999999
+      ],
+      "target_bbox_yolo": [
+        0.619981,
+        0.213636,
+        0.014205000000000058,
+        0.13232299999999997
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "prototype_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "tag_overlap": [
+        "equipment_dense",
+        "insulator_possible_review",
+        "sky",
+        "tower_or_equipment",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        0,
+        250,
+        512,
+        1018
+      ],
+      "target_local_xyxy": [
+        218.99847999999974,
+        187.99926500000004,
+        294.00088000000005,
+        580.998575
+      ],
+      "pasted_box_local_xyxy": [
+        230,
+        188,
+        284,
+        581
+      ],
+      "pasted_box_global_xyxy": [
+        230,
+        438,
+        284,
+        831
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0008_train_DJI_0311_obj000_to_val_DJI_0638_obj001.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0008_train_DJI_0311_obj000_to_val_DJI_0638_obj001.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0008_train_DJI_0311_obj000_to_val_DJI_0638_obj001.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0008_train_DJI_0311_obj000_to_val_DJI_0638_obj001.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0008_train_DJI_0311_obj000_to_val_DJI_0638_obj001.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0008_train_DJI_0311_obj000_to_val_DJI_0638_obj001.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    },
+    {
+      "job_id": "gen_0009",
+      "seed": 20260638,
+      "prototype_id": "train_DJI_0823_obj000",
+      "prototype_grade": "A",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0823_obj000.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0823.JPG",
+      "layout_id": "train_DJI_0693_obj001",
+      "target_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0693.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0693_obj001.jpg",
+      "target_bbox_xyxy": [
+        4198.9992,
+        288.00089999999994,
+        4302.00144,
+        659.0014199999999
+      ],
+      "target_bbox_xywh": [
+        4198.9992,
+        288.00089999999994,
+        103.0022399999998,
+        371.00052
+      ],
+      "target_bbox_yolo": [
+        0.805019,
+        0.15942799999999996,
+        0.019507999999999963,
+        0.124916
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "prototype_tags_auto": [
+        "sky",
+        "wire_or_tower"
+      ],
+      "tag_overlap": [
+        "sky",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        0,
+        90,
+        515,
+        858
+      ],
+      "target_local_xyxy": [
+        205.9992000000002,
+        198.00089999999994,
+        309.00144,
+        569.0014199999999
+      ],
+      "pasted_box_local_xyxy": [
+        234,
+        198,
+        282,
+        569
+      ],
+      "pasted_box_global_xyxy": [
+        234,
+        288,
+        282,
+        659
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0009_train_DJI_0823_obj000_to_train_DJI_0693_obj001.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0009_train_DJI_0823_obj000_to_train_DJI_0693_obj001.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0009_train_DJI_0823_obj000_to_train_DJI_0693_obj001.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0009_train_DJI_0823_obj000_to_train_DJI_0693_obj001.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0009_train_DJI_0823_obj000_to_train_DJI_0693_obj001.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0009_train_DJI_0823_obj000_to_train_DJI_0693_obj001.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    },
+    {
+      "job_id": "gen_0010",
+      "seed": 20260639,
+      "prototype_id": "train_DJI_0987_obj000",
+      "prototype_grade": "A",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0987_obj000.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0987.JPG",
+      "layout_id": "train_DJI_0829_obj000",
+      "target_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0829.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0829_obj000.jpg",
+      "target_bbox_xyxy": [
+        826.0005600000001,
+        23.00116499999996,
+        1161.00072,
+        1658.0010150000003
+      ],
+      "target_bbox_xywh": [
+        826.0005600000001,
+        23.00116499999996,
+        335.00015999999994,
+        1634.9998500000004
+      ],
+      "target_bbox_yolo": [
+        0.188163,
+        0.28299700000000005,
+        0.06344699999999999,
+        0.5505050000000001
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "vegetation",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "prototype_tags_auto": [
+        "sky",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "tag_overlap": [
+        "equipment_dense",
+        "insulator_possible_review",
+        "sky",
+        "tower_or_equipment",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        469,
+        201,
+        1493,
+        1481
+      ],
+      "target_local_xyxy": [
+        344.00056000000006,
+        -177.99883500000004,
+        679.00072,
+        1457.0010150000003
+      ],
+      "pasted_box_local_xyxy": [
+        431,
+        32,
+        592,
+        1248
+      ],
+      "pasted_box_global_xyxy": [
+        900,
+        233,
+        1061,
+        1449
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0010_train_DJI_0987_obj000_to_train_DJI_0829_obj000.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0010_train_DJI_0987_obj000_to_train_DJI_0829_obj000.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0010_train_DJI_0987_obj000_to_train_DJI_0829_obj000.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0010_train_DJI_0987_obj000_to_train_DJI_0829_obj000.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0010_train_DJI_0987_obj000_to_train_DJI_0829_obj000.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0010_train_DJI_0987_obj000_to_train_DJI_0829_obj000.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    },
+    {
+      "job_id": "gen_0011",
+      "seed": 20260640,
+      "prototype_id": "train_DJI_0325_obj000",
+      "prototype_grade": "A",
+      "prototype_image": "/root/workspace/outputs/arrester/prototypes/bank/images/train_DJI_0325_obj000.jpg",
+      "prototype_source_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0325.JPG",
+      "layout_id": "train_DJI_0558_obj001",
+      "target_image": "/root/autodl-tmp/bileiqi/train/images/DJI_0558.JPG",
+      "target_context_crop_5x": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0558_obj001.jpg",
+      "target_bbox_xyxy": [
+        2226.9984,
+        838.999755,
+        2289.9993600000003,
+        1248.9993450000002
+      ],
+      "target_bbox_xywh": [
+        2226.9984,
+        838.999755,
+        63.000960000000305,
+        409.9995900000001
+      ],
+      "target_bbox_yolo": [
+        0.427746,
+        0.351515,
+        0.011932000000000057,
+        0.13804700000000003
+      ],
+      "target_image_width": 5280,
+      "target_image_height": 2970,
+      "background_tags_auto": [
+        "sky",
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "prototype_tags_auto": [
+        "wire_or_tower",
+        "tower_or_equipment",
+        "equipment_dense",
+        "insulator_possible_review"
+      ],
+      "tag_overlap": [
+        "equipment_dense",
+        "insulator_possible_review",
+        "tower_or_equipment",
+        "wire_or_tower"
+      ],
+      "prompt": "an aerial inspection image of electrical power equipment, realistic lighting, natural background transition",
+      "negative_prompt": "distorted arrester, broken object, duplicated object, blurry, unrealistic shadow, extra object",
+      "harmonization": {
+        "mode": "object_preserved_inpainting",
+        "denoise_strength_initial": 0.25,
+        "denoise_strength_range": [
+          0.15,
+          0.35
+        ],
+        "mask_policy": "protect prototype core; inpaint feathered boundary and nearby background only"
+      },
+      "patch_box_xyxy": [
+        0,
+        641,
+        512,
+        1409
+      ],
+      "target_local_xyxy": [
+        224.99839999999995,
+        178.99975500000005,
+        287.99936000000025,
+        588.9993450000002
+      ],
+      "pasted_box_local_xyxy": [
+        220,
+        182,
+        292,
+        585
+      ],
+      "pasted_box_global_xyxy": [
+        220,
+        823,
+        292,
+        1226
+      ],
+      "patch_composite": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_composites/gen_0011_train_DJI_0325_obj000_to_train_DJI_0558_obj001.jpg",
+      "patch_inpainted_blended": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/patch_inpainted/gen_0011_train_DJI_0325_obj000_to_train_DJI_0558_obj001.jpg",
+      "full_context_inpainted": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/full_context_inpainted/gen_0011_train_DJI_0325_obj000_to_train_DJI_0558_obj001.jpg",
+      "overlay": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/overlays/gen_0011_train_DJI_0325_obj000_to_train_DJI_0558_obj001.jpg",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/inpaint_masks/gen_0011_train_DJI_0325_obj000_to_train_DJI_0558_obj001.png",
+      "compare": "/root/workspace/outputs/arrester/stage2/patch_inpaint_preview_v4/compare/gen_0011_train_DJI_0325_obj000_to_train_DJI_0558_obj001.jpg",
+      "strength": 0.18,
+      "steps": 24,
+      "guidance_scale": 5.5,
+      "paste_policy": "prototype_tight_cutout_height_matched_preserve_aspect_patch_only_inpaint_mask_blended_back",
+      "blend_policy": "only SD2 pixels under inpaint mask are blended back; no rectangular patch paste"
+    }
+  ]
+}

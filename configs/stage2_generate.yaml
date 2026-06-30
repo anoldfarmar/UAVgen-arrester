@@ -1,0 +1,24 @@
+# Stage2 generation settings
+prototype_bank: /root/workspace/outputs/arrester/prototypes/bank/prototype_bank.json
+layout_pool: /root/workspace/outputs/arrester/stage1/layout_pool.json
+generation_manifest: /root/workspace/outputs/arrester/stage2/generation_manifest_v1.json
+output_dir: /root/workspace/outputs/arrester/stage2/generated_v1
+
+prototype_sampling:
+  A_weight: 5
+  B_weight: 2
+  exclude_grades: [C]
+
+inpainting:
+  denoise_strength: 0.25
+  denoise_strength_min: 0.15
+  denoise_strength_max: 0.35
+  protect_object_core: true
+  boundary_feather_px: 12
+  boundary_dilate_px: 24
+
+filtering:
+  teacher_conf_keep: 0.5
+  teacher_iou_keep: 0.4
+  teacher_conf_priority: 0.7
+  teacher_iou_priority: 0.5

@@ -1,0 +1,8 @@
+# Model paths for arrester object-preserved diffusion pipeline
+teacher_detector: /root/ultralytics/models/arrester.pt
+sam_checkpoint: /root/models/sam/sam_vit_h_4b8939.pth
+sam_model_type: vit_h
+diffusion_model: /root/models/diffusion/stable-diffusion-2-inpainting
+
+# Current environment note:
+# conda yolo26 currently has torch/cv2/ultralytics but does not have diffusers, transformers, accelerate, or segment_anything.

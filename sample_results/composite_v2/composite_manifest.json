@@ -1,0 +1,1485 @@
+{
+  "count": 40,
+  "records": [
+    {
+      "job_id": "gen_0000",
+      "prototype_id": "train_DJI_0613_obj000",
+      "prototype_grade": "B",
+      "layout_id": "train_DJI_0976_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0976_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0000_train_DJI_0613_obj000_to_train_DJI_0976_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0000_train_DJI_0613_obj000_to_train_DJI_0976_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0000_train_DJI_0613_obj000_to_train_DJI_0976_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0000_train_DJI_0613_obj000_to_train_DJI_0976_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0000_train_DJI_0613_obj000_to_train_DJI_0976_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        226.00016000000005,
+        581.9997149999999,
+        339.0027199999995,
+        911.999385
+      ],
+      "pasted_box_xyxy": [
+        226,
+        582,
+        339,
+        912
+      ],
+      "target_bbox_xywh": [
+        226.00016000000005,
+        581.9997149999999,
+        113.00255999999945,
+        329.99967000000004
+      ],
+      "pasted_bbox_xywh": [
+        226,
+        582,
+        113,
+        330
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0001",
+      "prototype_id": "train_DJI_0822_obj001",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0992_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0992_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0001_train_DJI_0822_obj001_to_train_DJI_0992_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0001_train_DJI_0822_obj001_to_train_DJI_0992_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0001_train_DJI_0822_obj001_to_train_DJI_0992_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0001_train_DJI_0822_obj001_to_train_DJI_0992_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0001_train_DJI_0822_obj001_to_train_DJI_0992_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        602.0015200000003,
+        477.99922499999997,
+        891.00232,
+        1721.9985749999998
+      ],
+      "pasted_box_xyxy": [
+        602,
+        478,
+        891,
+        1722
+      ],
+      "target_bbox_xywh": [
+        602.0015200000003,
+        477.99922499999997,
+        289.0007999999998,
+        1243.9993499999998
+      ],
+      "pasted_bbox_xywh": [
+        602,
+        478,
+        289,
+        1244
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0002",
+      "prototype_id": "train_DJI_0822_obj001",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0719_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0719_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0002_train_DJI_0822_obj001_to_train_DJI_0719_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0002_train_DJI_0822_obj001_to_train_DJI_0719_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0002_train_DJI_0822_obj001_to_train_DJI_0719_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0002_train_DJI_0822_obj001_to_train_DJI_0719_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0002_train_DJI_0822_obj001_to_train_DJI_0719_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        535.9996800000004,
+        343.0008449999999,
+        771.0019200000002,
+        1432.9997549999998
+      ],
+      "pasted_box_xyxy": [
+        536,
+        343,
+        771,
+        1433
+      ],
+      "target_bbox_xywh": [
+        535.9996800000004,
+        343.0008449999999,
+        235.0022399999998,
+        1089.9989099999998
+      ],
+      "pasted_bbox_xywh": [
+        536,
+        343,
+        235,
+        1090
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0003",
+      "prototype_id": "train_DJI_0978_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0987_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0987_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0003_train_DJI_0978_obj000_to_train_DJI_0987_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0003_train_DJI_0978_obj000_to_train_DJI_0987_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0003_train_DJI_0978_obj000_to_train_DJI_0987_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0003_train_DJI_0978_obj000_to_train_DJI_0987_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0003_train_DJI_0978_obj000_to_train_DJI_0987_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        227.0008799999996,
+        661.9994300000001,
+        285.00167999999985,
+        992.99999
+      ],
+      "pasted_box_xyxy": [
+        227,
+        662,
+        285,
+        993
+      ],
+      "target_bbox_xywh": [
+        227.0008799999996,
+        661.9994300000001,
+        58.000800000000254,
+        331.00055999999995
+      ],
+      "pasted_bbox_xywh": [
+        227,
+        662,
+        58,
+        331
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0004",
+      "prototype_id": "train_DJI_0311_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0584_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0584_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0004_train_DJI_0311_obj000_to_train_DJI_0584_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0004_train_DJI_0311_obj000_to_train_DJI_0584_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0004_train_DJI_0311_obj000_to_train_DJI_0584_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0004_train_DJI_0311_obj000_to_train_DJI_0584_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0004_train_DJI_0311_obj000_to_train_DJI_0584_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        529.9983199999997,
+        576.9997199999999,
+        712.99784,
+        1613.0010599999998
+      ],
+      "pasted_box_xyxy": [
+        530,
+        577,
+        713,
+        1613
+      ],
+      "target_bbox_xywh": [
+        529.9983199999997,
+        576.9997199999999,
+        182.9995200000003,
+        1036.0013399999998
+      ],
+      "pasted_bbox_xywh": [
+        530,
+        577,
+        183,
+        1036
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0005",
+      "prototype_id": "train_DJI_0978_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0987_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0987_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0005_train_DJI_0978_obj000_to_train_DJI_0987_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0005_train_DJI_0978_obj000_to_train_DJI_0987_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0005_train_DJI_0978_obj000_to_train_DJI_0987_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0005_train_DJI_0978_obj000_to_train_DJI_0987_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0005_train_DJI_0978_obj000_to_train_DJI_0987_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        626.9969600000004,
+        449.000145,
+        864.9982399999999,
+        1692.999495
+      ],
+      "pasted_box_xyxy": [
+        627,
+        449,
+        865,
+        1693
+      ],
+      "target_bbox_xywh": [
+        626.9969600000004,
+        449.000145,
+        238.0012799999995,
+        1243.99935
+      ],
+      "pasted_bbox_xywh": [
+        627,
+        449,
+        238,
+        1244
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0006",
+      "prototype_id": "train_DJI_0974_obj000",
+      "prototype_grade": "B",
+      "layout_id": "train_DJI_0649_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0649_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0006_train_DJI_0974_obj000_to_train_DJI_0649_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0006_train_DJI_0974_obj000_to_train_DJI_0649_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0006_train_DJI_0974_obj000_to_train_DJI_0649_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0006_train_DJI_0974_obj000_to_train_DJI_0649_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0006_train_DJI_0974_obj000_to_train_DJI_0649_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        227.9983200000006,
+        800.00151,
+        341.9988000000003,
+        1200.0011100000002
+      ],
+      "pasted_box_xyxy": [
+        228,
+        800,
+        342,
+        1200
+      ],
+      "target_bbox_xywh": [
+        227.9983200000006,
+        800.00151,
+        114.0004799999997,
+        399.9996000000001
+      ],
+      "pasted_bbox_xywh": [
+        228,
+        800,
+        114,
+        400
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0007",
+      "prototype_id": "train_DJI_0829_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0522_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0522_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0007_train_DJI_0829_obj000_to_train_DJI_0522_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0007_train_DJI_0829_obj000_to_train_DJI_0522_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0007_train_DJI_0829_obj000_to_train_DJI_0522_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0007_train_DJI_0829_obj000_to_train_DJI_0522_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0007_train_DJI_0829_obj000_to_train_DJI_0522_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        290.00063999999975,
+        845.99856,
+        416.00256000000036,
+        1433.99916
+      ],
+      "pasted_box_xyxy": [
+        290,
+        846,
+        416,
+        1434
+      ],
+      "target_bbox_xywh": [
+        290.00063999999975,
+        845.99856,
+        126.00192000000061,
+        588.0006000000001
+      ],
+      "pasted_bbox_xywh": [
+        290,
+        846,
+        126,
+        588
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0008",
+      "prototype_id": "train_DJI_0311_obj000",
+      "prototype_grade": "A",
+      "layout_id": "val_DJI_0638_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/val_DJI_0638_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0008_train_DJI_0311_obj000_to_val_DJI_0638_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0008_train_DJI_0311_obj000_to_val_DJI_0638_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0008_train_DJI_0311_obj000_to_val_DJI_0638_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0008_train_DJI_0311_obj000_to_val_DJI_0638_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0008_train_DJI_0311_obj000_to_val_DJI_0638_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        218.99847999999974,
+        437.99926500000004,
+        294.00088000000005,
+        830.998575
+      ],
+      "pasted_box_xyxy": [
+        219,
+        438,
+        294,
+        831
+      ],
+      "target_bbox_xywh": [
+        218.99847999999974,
+        437.99926500000004,
+        75.0024000000003,
+        392.9993099999999
+      ],
+      "pasted_bbox_xywh": [
+        219,
+        438,
+        75,
+        393
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0009",
+      "prototype_id": "train_DJI_0823_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0693_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0693_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0009_train_DJI_0823_obj000_to_train_DJI_0693_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0009_train_DJI_0823_obj000_to_train_DJI_0693_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0009_train_DJI_0823_obj000_to_train_DJI_0693_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0009_train_DJI_0823_obj000_to_train_DJI_0693_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0009_train_DJI_0823_obj000_to_train_DJI_0693_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        205.9992000000002,
+        288.00089999999994,
+        309.00144,
+        659.0014199999999
+      ],
+      "pasted_box_xyxy": [
+        206,
+        288,
+        309,
+        659
+      ],
+      "target_bbox_xywh": [
+        205.9992000000002,
+        288.00089999999994,
+        103.0022399999998,
+        371.00052
+      ],
+      "pasted_bbox_xywh": [
+        206,
+        288,
+        103,
+        371
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0010",
+      "prototype_id": "train_DJI_0987_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0829_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0829_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0010_train_DJI_0987_obj000_to_train_DJI_0829_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0010_train_DJI_0987_obj000_to_train_DJI_0829_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0010_train_DJI_0987_obj000_to_train_DJI_0829_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0010_train_DJI_0987_obj000_to_train_DJI_0829_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0010_train_DJI_0987_obj000_to_train_DJI_0829_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        813.0005600000001,
+        23.00116499999996,
+        1148.00072,
+        1658.0010150000003
+      ],
+      "pasted_box_xyxy": [
+        813,
+        23,
+        1148,
+        1658
+      ],
+      "target_bbox_xywh": [
+        813.0005600000001,
+        23.00116499999996,
+        335.00015999999994,
+        1634.9998500000004
+      ],
+      "pasted_bbox_xywh": [
+        813,
+        23,
+        335,
+        1635
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0011",
+      "prototype_id": "train_DJI_0325_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0558_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0558_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0011_train_DJI_0325_obj000_to_train_DJI_0558_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0011_train_DJI_0325_obj000_to_train_DJI_0558_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0011_train_DJI_0325_obj000_to_train_DJI_0558_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0011_train_DJI_0325_obj000_to_train_DJI_0558_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0011_train_DJI_0325_obj000_to_train_DJI_0558_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        224.99839999999995,
+        819.999755,
+        287.99936000000025,
+        1229.9993450000002
+      ],
+      "pasted_box_xyxy": [
+        225,
+        820,
+        288,
+        1230
+      ],
+      "target_bbox_xywh": [
+        224.99839999999995,
+        819.999755,
+        63.000960000000305,
+        409.9995900000001
+      ],
+      "pasted_bbox_xywh": [
+        225,
+        820,
+        63,
+        410
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0012",
+      "prototype_id": "train_DJI_0822_obj001",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0974_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0974_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0012_train_DJI_0822_obj001_to_train_DJI_0974_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0012_train_DJI_0822_obj001_to_train_DJI_0974_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0012_train_DJI_0822_obj001_to_train_DJI_0974_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0012_train_DJI_0822_obj001_to_train_DJI_0974_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0012_train_DJI_0822_obj001_to_train_DJI_0974_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        352.99703999999997,
+        1084.998915,
+        618.99816,
+        2011.9982849999997
+      ],
+      "pasted_box_xyxy": [
+        353,
+        1085,
+        619,
+        2012
+      ],
+      "target_bbox_xywh": [
+        352.99703999999997,
+        1084.998915,
+        266.00112,
+        926.9993699999998
+      ],
+      "pasted_bbox_xywh": [
+        353,
+        1085,
+        266,
+        927
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0013",
+      "prototype_id": "train_DJI_0311_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0711_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0711_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0013_train_DJI_0311_obj000_to_train_DJI_0711_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0013_train_DJI_0311_obj000_to_train_DJI_0711_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0013_train_DJI_0311_obj000_to_train_DJI_0711_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0013_train_DJI_0311_obj000_to_train_DJI_0711_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0013_train_DJI_0311_obj000_to_train_DJI_0711_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        801.0012799999995,
+        661.9996349999999,
+        1105.00256,
+        1642.9995449999997
+      ],
+      "pasted_box_xyxy": [
+        801,
+        662,
+        1105,
+        1643
+      ],
+      "target_bbox_xywh": [
+        801.0012799999995,
+        661.9996349999999,
+        304.0012800000004,
+        980.9999099999998
+      ],
+      "pasted_bbox_xywh": [
+        801,
+        662,
+        304,
+        981
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0014",
+      "prototype_id": "train_DJI_0829_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0628_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0628_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0014_train_DJI_0829_obj000_to_train_DJI_0628_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0014_train_DJI_0829_obj000_to_train_DJI_0628_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0014_train_DJI_0829_obj000_to_train_DJI_0628_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0014_train_DJI_0829_obj000_to_train_DJI_0628_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0014_train_DJI_0829_obj000_to_train_DJI_0628_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        428.00095999999985,
+        389.00169000000005,
+        603.00128,
+        1249.00083
+      ],
+      "pasted_box_xyxy": [
+        428,
+        389,
+        603,
+        1249
+      ],
+      "target_bbox_xywh": [
+        428.00095999999985,
+        389.00169000000005,
+        175.0003200000001,
+        859.9991399999999
+      ],
+      "pasted_bbox_xywh": [
+        428,
+        389,
+        175,
+        860
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0015",
+      "prototype_id": "train_DJI_0303_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0298_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0298_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0015_train_DJI_0303_obj000_to_train_DJI_0298_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0015_train_DJI_0303_obj000_to_train_DJI_0298_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0015_train_DJI_0303_obj000_to_train_DJI_0298_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0015_train_DJI_0303_obj000_to_train_DJI_0298_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0015_train_DJI_0303_obj000_to_train_DJI_0298_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        576.0032799999999,
+        539.000055,
+        864.00088,
+        1508.0011650000001
+      ],
+      "pasted_box_xyxy": [
+        576,
+        539,
+        864,
+        1508
+      ],
+      "target_bbox_xywh": [
+        576.0032799999999,
+        539.000055,
+        287.99760000000015,
+        969.0011100000002
+      ],
+      "pasted_bbox_xywh": [
+        576,
+        539,
+        288,
+        969
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0016",
+      "prototype_id": "train_DJI_0829_obj000",
+      "prototype_grade": "A",
+      "layout_id": "val_DJI_0637_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/val_DJI_0637_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0016_train_DJI_0829_obj000_to_val_DJI_0637_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0016_train_DJI_0829_obj000_to_val_DJI_0637_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0016_train_DJI_0829_obj000_to_val_DJI_0637_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0016_train_DJI_0829_obj000_to_val_DJI_0637_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0016_train_DJI_0829_obj000_to_val_DJI_0637_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        461.00104,
+        602.9991,
+        667.0002400000001,
+        1542.9981599999999
+      ],
+      "pasted_box_xyxy": [
+        461,
+        603,
+        667,
+        1543
+      ],
+      "target_bbox_xywh": [
+        461.00104,
+        602.9991,
+        205.9992000000001,
+        939.9990599999999
+      ],
+      "pasted_bbox_xywh": [
+        461,
+        603,
+        206,
+        940
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0017",
+      "prototype_id": "train_DJI_0652_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0710_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0710_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0017_train_DJI_0652_obj000_to_train_DJI_0710_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0017_train_DJI_0652_obj000_to_train_DJI_0710_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0017_train_DJI_0652_obj000_to_train_DJI_0710_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0017_train_DJI_0652_obj000_to_train_DJI_0710_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0017_train_DJI_0652_obj000_to_train_DJI_0710_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        529.99768,
+        543.000645,
+        706.99912,
+        1572.999615
+      ],
+      "pasted_box_xyxy": [
+        530,
+        543,
+        707,
+        1573
+      ],
+      "target_bbox_xywh": [
+        529.99768,
+        543.000645,
+        177.00144,
+        1029.99897
+      ],
+      "pasted_bbox_xywh": [
+        530,
+        543,
+        177,
+        1030
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0018",
+      "prototype_id": "train_DJI_0700_obj000",
+      "prototype_grade": "B",
+      "layout_id": "train_DJI_0522_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0522_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0018_train_DJI_0700_obj000_to_train_DJI_0522_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0018_train_DJI_0700_obj000_to_train_DJI_0522_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0018_train_DJI_0700_obj000_to_train_DJI_0522_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0018_train_DJI_0700_obj000_to_train_DJI_0522_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0018_train_DJI_0700_obj000_to_train_DJI_0522_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        293.00160000000005,
+        200.999205,
+        425.0015999999996,
+        798.999795
+      ],
+      "pasted_box_xyxy": [
+        293,
+        201,
+        425,
+        799
+      ],
+      "target_bbox_xywh": [
+        293.00160000000005,
+        200.999205,
+        131.99999999999955,
+        598.00059
+      ],
+      "pasted_bbox_xywh": [
+        293,
+        201,
+        132,
+        598
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0019",
+      "prototype_id": "train_DJI_0700_obj000",
+      "prototype_grade": "B",
+      "layout_id": "val_DJI_0638_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/val_DJI_0638_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0019_train_DJI_0700_obj000_to_val_DJI_0638_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0019_train_DJI_0700_obj000_to_val_DJI_0638_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0019_train_DJI_0700_obj000_to_val_DJI_0638_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0019_train_DJI_0700_obj000_to_val_DJI_0638_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0019_train_DJI_0700_obj000_to_val_DJI_0638_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        218.99847999999974,
+        437.99926500000004,
+        294.00088000000005,
+        830.998575
+      ],
+      "pasted_box_xyxy": [
+        219,
+        438,
+        294,
+        831
+      ],
+      "target_bbox_xywh": [
+        218.99847999999974,
+        437.99926500000004,
+        75.0024000000003,
+        392.9993099999999
+      ],
+      "pasted_bbox_xywh": [
+        219,
+        438,
+        75,
+        393
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0020",
+      "prototype_id": "train_DJI_0303_obj000",
+      "prototype_grade": "A",
+      "layout_id": "val_220kVtundaⅠhuixian#008+1-zuo000-qian000_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/val_220kVtundaⅠhuixian#008+1-zuo000-qian000_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0020_train_DJI_0303_obj000_to_val_220kVtundaⅠhuixian#008+1-zuo000-qian000_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0020_train_DJI_0303_obj000_to_val_220kVtundaⅠhuixian#008+1-zuo000-qian000_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0020_train_DJI_0303_obj000_to_val_220kVtundaⅠhuixian#008+1-zuo000-qian000_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0020_train_DJI_0303_obj000_to_val_220kVtundaⅠhuixian#008+1-zuo000-qian000_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0020_train_DJI_0303_obj000_to_val_220kVtundaⅠhuixian#008+1-zuo000-qian000_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        578.999632,
+        1090.001367,
+        727.0008160000002,
+        2179.000845
+      ],
+      "pasted_box_xyxy": [
+        579,
+        1090,
+        727,
+        2179
+      ],
+      "target_bbox_xywh": [
+        578.999632,
+        1090.001367,
+        148.0011840000002,
+        1088.999478
+      ],
+      "pasted_bbox_xywh": [
+        579,
+        1090,
+        148,
+        1089
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0021",
+      "prototype_id": "train_DJI_0822_obj001",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0710_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0710_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0021_train_DJI_0822_obj001_to_train_DJI_0710_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0021_train_DJI_0822_obj001_to_train_DJI_0710_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0021_train_DJI_0822_obj001_to_train_DJI_0710_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0021_train_DJI_0822_obj001_to_train_DJI_0710_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0021_train_DJI_0822_obj001_to_train_DJI_0710_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        529.99768,
+        543.000645,
+        706.99912,
+        1572.999615
+      ],
+      "pasted_box_xyxy": [
+        530,
+        543,
+        707,
+        1573
+      ],
+      "target_bbox_xywh": [
+        529.99768,
+        543.000645,
+        177.00144,
+        1029.99897
+      ],
+      "pasted_bbox_xywh": [
+        530,
+        543,
+        177,
+        1030
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0022",
+      "prototype_id": "train_DJI_0823_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0332_W_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0332_W_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0022_train_DJI_0823_obj000_to_train_DJI_0332_W_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0022_train_DJI_0823_obj000_to_train_DJI_0332_W_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0022_train_DJI_0823_obj000_to_train_DJI_0332_W_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0022_train_DJI_0823_obj000_to_train_DJI_0332_W_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0022_train_DJI_0823_obj000_to_train_DJI_0332_W_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        356.99999999999955,
+        1334.0009999999997,
+        443.0,
+        2001.0029999999997
+      ],
+      "pasted_box_xyxy": [
+        357,
+        1334,
+        443,
+        2001
+      ],
+      "target_bbox_xywh": [
+        356.99999999999955,
+        1334.0009999999997,
+        86.00000000000045,
+        667.002
+      ],
+      "pasted_bbox_xywh": [
+        357,
+        1334,
+        86,
+        667
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0023",
+      "prototype_id": "train_DJI_0616_W_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0530_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0530_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0023_train_DJI_0616_W_obj000_to_train_DJI_0530_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0023_train_DJI_0616_W_obj000_to_train_DJI_0530_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0023_train_DJI_0616_W_obj000_to_train_DJI_0530_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0023_train_DJI_0616_W_obj000_to_train_DJI_0530_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0023_train_DJI_0616_W_obj000_to_train_DJI_0530_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        380.99944000000005,
+        424.999575,
+        467.9979999999996,
+        1131.999165
+      ],
+      "pasted_box_xyxy": [
+        381,
+        425,
+        468,
+        1132
+      ],
+      "target_bbox_xywh": [
+        380.99944000000005,
+        424.999575,
+        86.99855999999954,
+        706.9995899999999
+      ],
+      "pasted_bbox_xywh": [
+        381,
+        425,
+        87,
+        707
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0024",
+      "prototype_id": "train_DJI_0974_obj000",
+      "prototype_grade": "B",
+      "layout_id": "train_DJI_0829_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0829_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0024_train_DJI_0974_obj000_to_train_DJI_0829_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0024_train_DJI_0974_obj000_to_train_DJI_0829_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0024_train_DJI_0974_obj000_to_train_DJI_0829_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0024_train_DJI_0974_obj000_to_train_DJI_0829_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0024_train_DJI_0974_obj000_to_train_DJI_0829_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        813.0005600000001,
+        23.00116499999996,
+        1148.00072,
+        1658.0010150000003
+      ],
+      "pasted_box_xyxy": [
+        813,
+        23,
+        1148,
+        1658
+      ],
+      "target_bbox_xywh": [
+        813.0005600000001,
+        23.00116499999996,
+        335.00015999999994,
+        1634.9998500000004
+      ],
+      "pasted_bbox_xywh": [
+        813,
+        23,
+        335,
+        1635
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0025",
+      "prototype_id": "train_DJI_0987_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0649_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0649_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0025_train_DJI_0987_obj000_to_train_DJI_0649_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0025_train_DJI_0987_obj000_to_train_DJI_0649_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0025_train_DJI_0987_obj000_to_train_DJI_0649_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0025_train_DJI_0987_obj000_to_train_DJI_0649_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0025_train_DJI_0987_obj000_to_train_DJI_0649_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        227.9983200000006,
+        800.00151,
+        341.9988000000003,
+        1200.0011100000002
+      ],
+      "pasted_box_xyxy": [
+        228,
+        800,
+        342,
+        1200
+      ],
+      "target_bbox_xywh": [
+        227.9983200000006,
+        800.00151,
+        114.0004799999997,
+        399.9996000000001
+      ],
+      "pasted_bbox_xywh": [
+        228,
+        800,
+        114,
+        400
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0026",
+      "prototype_id": "train_DJI_0303_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0692_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0692_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0026_train_DJI_0303_obj000_to_train_DJI_0692_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0026_train_DJI_0303_obj000_to_train_DJI_0692_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0026_train_DJI_0303_obj000_to_train_DJI_0692_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0026_train_DJI_0303_obj000_to_train_DJI_0692_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0026_train_DJI_0303_obj000_to_train_DJI_0692_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        626.0000800000003,
+        276.99853499999995,
+        732.99928,
+        1408.999185
+      ],
+      "pasted_box_xyxy": [
+        626,
+        277,
+        733,
+        1409
+      ],
+      "target_bbox_xywh": [
+        626.0000800000003,
+        276.99853499999995,
+        106.99919999999975,
+        1132.00065
+      ],
+      "pasted_bbox_xywh": [
+        626,
+        277,
+        107,
+        1132
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0027",
+      "prototype_id": "train_DJI_0513_obj001",
+      "prototype_grade": "B",
+      "layout_id": "train_DJI_0710_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0710_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0027_train_DJI_0513_obj001_to_train_DJI_0710_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0027_train_DJI_0513_obj001_to_train_DJI_0710_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0027_train_DJI_0513_obj001_to_train_DJI_0710_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0027_train_DJI_0513_obj001_to_train_DJI_0710_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0027_train_DJI_0513_obj001_to_train_DJI_0710_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        529.99768,
+        543.000645,
+        706.99912,
+        1572.999615
+      ],
+      "pasted_box_xyxy": [
+        530,
+        543,
+        707,
+        1573
+      ],
+      "target_bbox_xywh": [
+        529.99768,
+        543.000645,
+        177.00144,
+        1029.99897
+      ],
+      "pasted_bbox_xywh": [
+        530,
+        543,
+        177,
+        1030
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0028",
+      "prototype_id": "train_DJI_0311_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0628_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0628_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0028_train_DJI_0311_obj000_to_train_DJI_0628_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0028_train_DJI_0311_obj000_to_train_DJI_0628_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0028_train_DJI_0311_obj000_to_train_DJI_0628_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0028_train_DJI_0311_obj000_to_train_DJI_0628_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0028_train_DJI_0311_obj000_to_train_DJI_0628_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        428.00095999999985,
+        389.00169000000005,
+        603.00128,
+        1249.00083
+      ],
+      "pasted_box_xyxy": [
+        428,
+        389,
+        603,
+        1249
+      ],
+      "target_bbox_xywh": [
+        428.00095999999985,
+        389.00169000000005,
+        175.0003200000001,
+        859.9991399999999
+      ],
+      "pasted_bbox_xywh": [
+        428,
+        389,
+        175,
+        860
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0029",
+      "prototype_id": "train_DJI_0693_obj000",
+      "prototype_grade": "B",
+      "layout_id": "train_DJI_0513_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0513_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0029_train_DJI_0693_obj000_to_train_DJI_0513_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0029_train_DJI_0693_obj000_to_train_DJI_0513_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0029_train_DJI_0693_obj000_to_train_DJI_0513_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0029_train_DJI_0693_obj000_to_train_DJI_0513_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0029_train_DJI_0693_obj000_to_train_DJI_0513_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        462.0003200000001,
+        1944.9995399999998,
+        693.0003200000001,
+        2575.9998
+      ],
+      "pasted_box_xyxy": [
+        462,
+        1945,
+        693,
+        2576
+      ],
+      "target_bbox_xywh": [
+        462.0003200000001,
+        1944.9995399999998,
+        231.0,
+        631.0002600000003
+      ],
+      "pasted_bbox_xywh": [
+        462,
+        1945,
+        231,
+        631
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0030",
+      "prototype_id": "train_DJI_0978_obj000",
+      "prototype_grade": "A",
+      "layout_id": "val_220kVtundaⅠhuixian#008-zuo000-qian000(8)_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/val_220kVtundaⅠhuixian#008-zuo000-qian000(8)_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0030_train_DJI_0978_obj000_to_val_220kVtundaⅠhuixian#008-zuo000-qian000(8)_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0030_train_DJI_0978_obj000_to_val_220kVtundaⅠhuixian#008-zuo000-qian000(8)_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0030_train_DJI_0978_obj000_to_val_220kVtundaⅠhuixian#008-zuo000-qian000(8)_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0030_train_DJI_0978_obj000_to_val_220kVtundaⅠhuixian#008-zuo000-qian000(8)_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0030_train_DJI_0978_obj000_to_val_220kVtundaⅠhuixian#008-zuo000-qian000(8)_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        546.0012960000004,
+        1183.0000590000002,
+        686.0024160000003,
+        2208.999033
+      ],
+      "pasted_box_xyxy": [
+        546,
+        1183,
+        686,
+        2209
+      ],
+      "target_bbox_xywh": [
+        546.0012960000004,
+        1183.0000590000002,
+        140.0011199999999,
+        1025.9989739999999
+      ],
+      "pasted_bbox_xywh": [
+        546,
+        1183,
+        140,
+        1026
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0031",
+      "prototype_id": "train_DJI_0298_obj000",
+      "prototype_grade": "B",
+      "layout_id": "train_DJI_0701_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0701_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0031_train_DJI_0298_obj000_to_train_DJI_0701_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0031_train_DJI_0298_obj000_to_train_DJI_0701_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0031_train_DJI_0298_obj000_to_train_DJI_0701_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0031_train_DJI_0298_obj000_to_train_DJI_0701_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0031_train_DJI_0298_obj000_to_train_DJI_0701_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        559.0004799999997,
+        494.999505,
+        705.00304,
+        1547.9981549999998
+      ],
+      "pasted_box_xyxy": [
+        559,
+        495,
+        705,
+        1548
+      ],
+      "target_bbox_xywh": [
+        559.0004799999997,
+        494.999505,
+        146.00256000000036,
+        1052.9986499999998
+      ],
+      "pasted_bbox_xywh": [
+        559,
+        495,
+        146,
+        1053
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0032",
+      "prototype_id": "train_DJI_0700_obj000",
+      "prototype_grade": "B",
+      "layout_id": "train_DJI_0710_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0710_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0032_train_DJI_0700_obj000_to_train_DJI_0710_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0032_train_DJI_0700_obj000_to_train_DJI_0710_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0032_train_DJI_0700_obj000_to_train_DJI_0710_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0032_train_DJI_0700_obj000_to_train_DJI_0710_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0032_train_DJI_0700_obj000_to_train_DJI_0710_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        529.99768,
+        543.000645,
+        706.99912,
+        1572.999615
+      ],
+      "pasted_box_xyxy": [
+        530,
+        543,
+        707,
+        1573
+      ],
+      "target_bbox_xywh": [
+        529.99768,
+        543.000645,
+        177.00144,
+        1029.99897
+      ],
+      "pasted_bbox_xywh": [
+        530,
+        543,
+        177,
+        1030
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0033",
+      "prototype_id": "train_DJI_0311_obj000",
+      "prototype_grade": "A",
+      "layout_id": "val_DJI_0637_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/val_DJI_0637_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0033_train_DJI_0311_obj000_to_val_DJI_0637_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0033_train_DJI_0311_obj000_to_val_DJI_0637_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0033_train_DJI_0311_obj000_to_val_DJI_0637_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0033_train_DJI_0311_obj000_to_val_DJI_0637_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0033_train_DJI_0311_obj000_to_val_DJI_0637_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        461.00104,
+        602.9991,
+        667.0002400000001,
+        1542.9981599999999
+      ],
+      "pasted_box_xyxy": [
+        461,
+        603,
+        667,
+        1543
+      ],
+      "target_bbox_xywh": [
+        461.00104,
+        602.9991,
+        205.9992000000001,
+        939.9990599999999
+      ],
+      "pasted_bbox_xywh": [
+        461,
+        603,
+        206,
+        940
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0034",
+      "prototype_id": "train_DJI_0356_obj000",
+      "prototype_grade": "A",
+      "layout_id": "val_DJI_0617_W_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/val_DJI_0617_W_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0034_train_DJI_0356_obj000_to_val_DJI_0617_W_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0034_train_DJI_0356_obj000_to_val_DJI_0617_W_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0034_train_DJI_0356_obj000_to_val_DJI_0617_W_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0034_train_DJI_0356_obj000_to_val_DJI_0617_W_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0034_train_DJI_0356_obj000_to_val_DJI_0617_W_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        284.0,
+        1037.998,
+        338.0000000000009,
+        1556.998
+      ],
+      "pasted_box_xyxy": [
+        284,
+        1038,
+        338,
+        1557
+      ],
+      "target_bbox_xywh": [
+        284.0,
+        1037.998,
+        54.00000000000091,
+        519.0
+      ],
+      "pasted_bbox_xywh": [
+        284,
+        1038,
+        54,
+        519
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0035",
+      "prototype_id": "train_DJI_0652_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0974_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0974_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0035_train_DJI_0652_obj000_to_train_DJI_0974_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0035_train_DJI_0652_obj000_to_train_DJI_0974_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0035_train_DJI_0652_obj000_to_train_DJI_0974_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0035_train_DJI_0652_obj000_to_train_DJI_0974_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0035_train_DJI_0652_obj000_to_train_DJI_0974_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        352.99703999999997,
+        1084.998915,
+        618.99816,
+        2011.9982849999997
+      ],
+      "pasted_box_xyxy": [
+        353,
+        1085,
+        619,
+        2012
+      ],
+      "target_bbox_xywh": [
+        352.99703999999997,
+        1084.998915,
+        266.00112,
+        926.9993699999998
+      ],
+      "pasted_bbox_xywh": [
+        353,
+        1085,
+        266,
+        927
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0036",
+      "prototype_id": "train_DJI_0311_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0522_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0522_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0036_train_DJI_0311_obj000_to_train_DJI_0522_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0036_train_DJI_0311_obj000_to_train_DJI_0522_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0036_train_DJI_0311_obj000_to_train_DJI_0522_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0036_train_DJI_0311_obj000_to_train_DJI_0522_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0036_train_DJI_0311_obj000_to_train_DJI_0522_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        290.00063999999975,
+        845.99856,
+        416.00256000000036,
+        1433.99916
+      ],
+      "pasted_box_xyxy": [
+        290,
+        846,
+        416,
+        1434
+      ],
+      "target_bbox_xywh": [
+        290.00063999999975,
+        845.99856,
+        126.00192000000061,
+        588.0006000000001
+      ],
+      "pasted_bbox_xywh": [
+        290,
+        846,
+        126,
+        588
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0037",
+      "prototype_id": "train_DJI_0616_W_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0701_obj000",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0701_obj000.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0037_train_DJI_0616_W_obj000_to_train_DJI_0701_obj000.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0037_train_DJI_0616_W_obj000_to_train_DJI_0701_obj000.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0037_train_DJI_0616_W_obj000_to_train_DJI_0701_obj000.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0037_train_DJI_0616_W_obj000_to_train_DJI_0701_obj000.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0037_train_DJI_0616_W_obj000_to_train_DJI_0701_obj000.jpg",
+      "target_box_in_context_xyxy": [
+        559.0004799999997,
+        494.999505,
+        705.00304,
+        1547.9981549999998
+      ],
+      "pasted_box_xyxy": [
+        559,
+        495,
+        705,
+        1548
+      ],
+      "target_bbox_xywh": [
+        559.0004799999997,
+        494.999505,
+        146.00256000000036,
+        1052.9986499999998
+      ],
+      "pasted_bbox_xywh": [
+        559,
+        495,
+        146,
+        1053
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0038",
+      "prototype_id": "train_DJI_0829_obj000",
+      "prototype_grade": "A",
+      "layout_id": "train_DJI_0612_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/train_DJI_0612_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0038_train_DJI_0829_obj000_to_train_DJI_0612_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0038_train_DJI_0829_obj000_to_train_DJI_0612_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0038_train_DJI_0829_obj000_to_train_DJI_0612_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0038_train_DJI_0829_obj000_to_train_DJI_0612_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0038_train_DJI_0829_obj000_to_train_DJI_0612_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        531.0000800000003,
+        899.9991000000001,
+        695.00216,
+        1921.99986
+      ],
+      "pasted_box_xyxy": [
+        531,
+        900,
+        695,
+        1922
+      ],
+      "target_bbox_xywh": [
+        531.0000800000003,
+        899.9991000000001,
+        164.00207999999975,
+        1022.0007599999998
+      ],
+      "pasted_bbox_xywh": [
+        531,
+        900,
+        164,
+        1022
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    },
+    {
+      "job_id": "gen_0039",
+      "prototype_id": "train_DJI_0700_obj000",
+      "prototype_grade": "B",
+      "layout_id": "val_DJI_0061_obj001",
+      "context_crop": "/root/workspace/outputs/arrester/stage1/context_crops_5x/val_DJI_0061_obj001.jpg",
+      "erased_background": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/erased_backgrounds/gen_0039_train_DJI_0700_obj000_to_val_DJI_0061_obj001.jpg",
+      "composite_image": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/images/gen_0039_train_DJI_0700_obj000_to_val_DJI_0061_obj001.jpg",
+      "object_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_object/gen_0039_train_DJI_0700_obj000_to_val_DJI_0061_obj001.png",
+      "inpaint_mask": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/masks_inpaint_boundary/gen_0039_train_DJI_0700_obj000_to_val_DJI_0061_obj001.png",
+      "overlay": "/root/workspace/outputs/arrester/stage2/composites_preview_v2/overlays/gen_0039_train_DJI_0700_obj000_to_val_DJI_0061_obj001.jpg",
+      "target_box_in_context_xyxy": [
+        215.00055999999995,
+        794.0007699999999,
+        296.0010400000001,
+        1191.0006700000001
+      ],
+      "pasted_box_xyxy": [
+        215,
+        794,
+        296,
+        1191
+      ],
+      "target_bbox_xywh": [
+        215.00055999999995,
+        794.0007699999999,
+        81.00048000000015,
+        396.99990000000025
+      ],
+      "pasted_bbox_xywh": [
+        215,
+        794,
+        81,
+        397
+      ],
+      "paste_policy": "tight_sam_cutout_resized_exactly_to_target_bbox_after_erasing_original_target"
+    }
+  ]
+}
